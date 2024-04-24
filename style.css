@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  background-color: #fff;
+  color: #000;
+  font-family: Space Mono;
+  font-size: 20pt;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  font-size: 30pt;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  font-family: Amatic SC;
+  font-size: 60pt;
+  color: #000;
+}
+
+.title{
+  text-decoration: 3px underline;
+}
+
+.title2{
+  text-decoration: 3px underline;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_txt{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  width: 75%;
+  font-weight: bolder;
+}
+
+.home_txt2{
+  margin-bottom: 50px;
+  width: 75%;
+  font-weight: bolder;
+}
+
+.text {
+  display: flex;
+  font-size: 28pt;
+  width: 90%;
+  margin: 50px 30px 100px -100px;
+}
+
+.text2 {
+  display: flex;
+  justify-content: center;
+  font-size: 28pt;
+  width: 90%;
+  margin: 10px 40px 300px -160px;
+}
+
+.text3 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 28pt;
+  width: 90%;
+  margin-left: 200px;
+}
+
+.text4 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-weight: bolder;
+}
+
+.text5 {
+  display: flex;
+  justify-content: center;
+  font-size: 28pt;
+  width: 90%;
+  margin: 250px 0px 50px 0px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.label{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 50pt;
+  font-family: Space Mono;
+}
+
+.link {
+  font-size: 23pt;
+  font-family: Space Mono;
+  font-weight: bolder;
+}
+
+.link > a:hover {
+  color: #7a7a79;
+}
+
+.link2 {
+  font-size: 25pt;
+}
+
+.link3{
+  display: inline;
+  color: blue;
+}
+
+.link2:hover, .link3:hover {
+  text-decoration: underline ;
+}
+
+.pic_layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.pic_layout2{
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.header_img{
+  width: 800px;
+  object-fit: cover;
+  margin: 10px 0px 10px 0px;
+}
+
+.pic {
+  width: 100px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin: 200px 0px 50px 500px;
+  transition: all 0.5s ease;
+}
+
+.pic2{
+  width: 100px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin: 400px 0px 300px -500px;
+  transition: all 0.5s ease;
+}
+
+.pic3{
+  width: 100px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin: 70px 100px 500px 200px;
+  transition: all 0.5s ease;
+}
+
+.pic:hover, .pic2:hover, .pic3:hover{
+  transform: scale(1.1);
+  
+}
+
+.eye{ 
+  display: flex;
+  justify-content: space-between;
+  font-size: 50pt;
+  margin-bottom: 70px;
+}
+
+.flashlight { /* this part controls the black background and the flashlight feature */
+  position: absolute;
+  background-color: transparent; 
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 1);
+  filter: url(#blur-filter);
+  pointer-events: none; /* PROF NOTES: Allows click and other events to pass through the flashlight 'layer' */
+}
