@@ -200,3 +200,8 @@ a{
   filter: url(#blur-filter);
   pointer-events: none; /* PROF NOTES: Allows click and other events to pass through the flashlight 'layer' */
 }
+
+.bold{
+  color: #404040;
+}
+}
